@@ -19,8 +19,7 @@
         text-align: center;
         font-size: 22px;
       }
-      fieldset{
-        margin-top: 100px; 
+      fieldset{ 
         display: flex;
         flex-direction: column;
         align-items: center;
