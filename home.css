@@ -1,0 +1,152 @@
+@media screen and (max-width: 600px) {
+
+    *{
+        text-decoration: none;
+    }
+    a{
+        color: black;
+    }
+    nav{
+        grid-area: header; 
+        position: fixed;
+        top: 0;
+        margin-bottom: 5px;
+        width: 100vw;
+    }
+
+
+    body{
+       
+        background-color: white; 
+        background-image: url('./img/email\ \(2\).png');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer"
+        ;
+    
+        grid-template-rows: 20vh, 1fr, 2%  ;
+    }
+    nav{
+        grid-area: header; 
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin-bottom: 5px;
+        width: 100vw;
+    }
+    #fixo.scroll{
+        background-color: #6A5ACD;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius:10px ;
+    }
+    #name.scroll{
+        color: rgba(0,0,0,0);
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
+    .menu{
+        background-color: rgba(0,0,0,0);
+        font-size: 35px; 
+        border: none;
+        text-align: center; 
+        
+    }
+
+ 
+
+
+
+    .person{
+        border-radius: 50%;
+    }
+
+
+    main{
+        grid-area: main;
+        margin-top: 100px; 
+      
+    }
+
+    .dicas{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: 	rgba(106,90,205, 0.9);
+        border-radius: 10px;
+        margin: 10px;
+        height: 300px;
+    
+    }
+
+    .dicas img {
+        height: 150px;
+        width: 150px;
+        background-color: 	rgba(255,20,147, 0.4);
+        border-radius: 10px; 
+        margin: 10px;
+
+    }
+    .dicasImg{
+        display: flex;
+        overflow: auto;
+        margin: 10px;
+
+    }
+    .infos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: 	rgba(106,90,205, 0.9);
+        border-radius: 10px;
+        margin: 10px;
+        height: 400px;  
+
+    }
+    .infosImg{
+
+        text-align: center;
+        display: flex;
+        overflow: auto;
+
+ 
+
+
+    }
+    .infos img{
+        height: 150px;
+        width: 150px;
+        background-color: 	rgba();
+        border-radius: 10px; 
+        margin: 20px;
+
+    }
+    .infosImg a{
+        border: solid 1px;
+        height:300px;   
+        margin: 10px; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+}
